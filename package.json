@@ -1,0 +1,34 @@
+{
+  "name": "ts-http-errors",
+  "version": "1.0.0",
+  "description": "http errors boilerplates",
+  "main": "dist/index.js",
+  "bin": {
+    "generate": "./bin/generate.js"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/generate.js && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawskal/ts-http-errors.git#v0.0.6"
+  },
+  "keywords": [
+    "nodejs",
+    "node-js",
+    "express",
+    "typescript",
+    "type-script",
+    "http",
+    "http-errors",
+    "ts-http-errors",
+    "ts-errors",
+    "typescript-errors",
+    "http-error",
+    "ts-http-error",
+    "ts-error"
+  ],
+  "author": "pavel.ivanov <ipawskal@gmail.com> (https://github.com/pawskal)",
+  "license": "ISC"
+}
