@@ -13,6 +13,18 @@ import { NotFoundError } from 'ts-http-errors';
 throw new NotFoundError("Not Found Message");
 ```
 
+expexted object
+```json
+{
+  "status": 404,
+  "message": "Not Found Message",
+  "name": "NotFoundError"
+}
+```
+
+Every objects inherited from `Error`
+Inside code status becomes to statusCode for backward capabilities with `express`
+
 #### Available errors 
 ```json
 [

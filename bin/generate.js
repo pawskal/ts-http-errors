@@ -23,7 +23,7 @@ stream.once('open', function(fd) {
 
     stream.write(
       `export class ${name}Error extends ExtendedError {\n` +
-        '\tconstructor(message: string = \'\') {\n' +
+        `\tconstructor(message: string = '${name}') {\n` +
           `\t\tsuper(message, ${code}, '${name}Error')\n` +
         '\t}\n' +
       '}\n\n'

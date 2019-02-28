@@ -12,8 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pawskal/ts-http-errors.git#v0.0.6"
+    "url": "git+https://github.com/pawskal/ts-http-errors.git#v1.0.0"
   },
+  "bugs": {
+    "url": "https://github.com/pawskal/ts-http-errors.git/issues"
+  },
+  "homepage": "https://github.com/pawskal/ts-http-errors#readme",
   "keywords": [
     "nodejs",
     "node-js",
@@ -30,5 +34,8 @@
     "ts-error"
   ],
   "author": "pavel.ivanov <ipawskal@gmail.com> (https://github.com/pawskal)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.3.3333"
+  }
 }
