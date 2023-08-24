@@ -36,6 +36,6 @@
   "author": "pavel.ivanov <ipawskal@gmail.com> (https://github.com/pawskal)",
   "license": "ISC",
   "dependencies": {
-    "typescript": "^3.3.3333"
+    "typescript": "^5.1.6"
   }
 }
